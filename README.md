@@ -3,7 +3,8 @@
 This project implements a rules engine in Scala for processing transaction data and applying discounts based on predefined rules. The rules engine reads transaction data from a CSV file, applies various discount rules based on product expiry, product type, quantity purchased, and special dates, and then calculates the final price for each transaction. The processed data is inserted into a database table for further analysis.
 
 ## Features:
-- **Flexible Rule Implementation**: The rules engine supports configurable discount rules for products nearing expiry, specific product types, quantity purchased, and special dates.
+- **CSV Data Processing**: Reads order data from a CSV file and converts it into Order objects.
+- **Discount Calculation**: Calculates discounts based on expiry date, special dates, product type, quantity ordered, purchase channel, and payment method, and you can add more.
 - **Database Integration**: Processed transaction data is stored in a relational database for easy querying and analysis.
  ![image](https://github.com/abdullahasm99/Scala-Rule-Engine/assets/153215733/17802a18-f1d5-474f-8934-5fb731a6ba77)
 - **Logging**: Detailed logging is implemented to track the processing of transactions, database connections, and any errors encountered.
