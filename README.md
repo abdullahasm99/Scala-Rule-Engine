@@ -5,7 +5,9 @@ This project implements a rules engine in Scala for processing transaction data 
 ## Features:
 - **Flexible Rule Implementation**: The rules engine supports configurable discount rules for products nearing expiry, specific product types, quantity purchased, and special dates.
 - **Database Integration**: Processed transaction data is stored in a relational database for easy querying and analysis.
+- ![image](https://github.com/abdullahasm99/Scala-Rule-Engine/assets/153215733/17802a18-f1d5-474f-8934-5fb731a6ba77)
 - **Logging**: Detailed logging is implemented to track the processing of transactions, database connections, and any errors encountered.
+- ![image](https://github.com/abdullahasm99/Scala-Rule-Engine/assets/153215733/84b768ab-d766-4449-8eb7-6d8351592433)
 - **Scalable and Maintainable**: The project is implemented in Scala, offering scalability and maintainability for handling large volumes of transaction data.
 
 ## Usage:
